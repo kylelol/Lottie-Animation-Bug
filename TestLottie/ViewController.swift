@@ -32,6 +32,7 @@ class ViewController: UIViewController {
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         
+        // Uncommenting this makes the animation view play when returning back to the screen.
         //animationView?.play()
     }
 
